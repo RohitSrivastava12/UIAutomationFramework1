@@ -22,34 +22,16 @@ Log4j (for logging)
 Setup Instructions
 Clone the repository:
 
-bash
-Copy code
-git clone https://github.com/yourusername/UIAutomationFramework.git
-cd UIAutomationFramework
 Install dependencies:
-
 Use Maven to install all the dependencies specified in the pom.xml:
 
-bash
-Copy code
-mvn clean install
 Configure the browser and environment:
-
 Update the browser drivers (e.g., ChromeDriver, GeckoDriver) in the project configuration if needed.
 
-Run the tests:
-
-Execute all the test cases using Maven:
-
-bash
-Copy code
-mvn test
 View Logs:
-
 Logs for each test run are generated in the logs directory. These logs provide detailed step-by-step information for each test.
 
 View Reports:
-
 Once tests are executed, you can view the detailed HTML test report in the reports directory. Open index.html in your browser to see test results.
 
 Logging
