@@ -9,21 +9,7 @@ Selenium WebDriver: Handles browser automation for UI testing.
 TestNG: Enables parallel test execution, grouping, and annotations for efficient test case management.
 Logger: Provides detailed log information for each test run, making it easier to debug and track test progress.
 Extent Reports: Generates rich, interactive HTML reports that highlight test results, including screenshots of failures.
-Project Structure
-plaintext
-Copy code
-.
-├── src
-│   ├── main
-│   │   └── java
-│   │       └── pages        # Page Object Model classes (page actions & elements)
-│   ├── test
-│       └── java
-│           └── tests        # TestNG test classes
-├── logs                     # Log files generated during execution
-├── reports                  # Extent reports generated post-execution
-├── pom.xml                  # Maven dependencies
-└── README.md                # Project documentation
+
 Prerequisites
 Before running the framework, ensure that the following software is installed:
 
