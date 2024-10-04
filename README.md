@@ -5,9 +5,13 @@ This project is a robust UI Automation Framework built using Selenium WebDriver 
 
 Features
 Page Object Model (POM): Enhances the maintainability of test cases by using a layered structure separating test logic from UI actions.
+
 Selenium WebDriver: Handles browser automation for UI testing.
+
 TestNG: Enables parallel test execution, grouping, and annotations for efficient test case management.
+
 Logger: Provides detailed log information for each test run, making it easier to debug and track test progress.
+
 Extent Reports: Generates rich, interactive HTML reports that highlight test results, including screenshots of failures.
 
 Prerequisites
